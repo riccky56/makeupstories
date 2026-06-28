@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Enquire — Makeup Stories by Riya · Destination Bridal Artist</title>
+<meta name="description" content="Tell Riya about your wedding day. Bridal makeup serving Bhilai, Raipur, Bilaspur, Pune, Hyderabad &amp; destination weddings across India." />
+<meta name="robots" content="noindex" /><!-- form page doesn't need to be in Google search -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<!-- ========================================================== -->
+<!--  AD TRACKING (same IDs as index.html)                         -->
+<!-- ============================================================ -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'YOUR_PIXEL_ID');
+fbq('track', 'PageView');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-XXXXXXXXXX');
+</script>
+<!-- ============================================================ -->
+
+<style>
+:root{
+  --cream:#f4eee6;--cream-2:#ede4d7;--blush:#f1ddd2;--peach:#f0d4c4;
+  --ink:#1f1b2c;--ink-2:#4a4453;--ink-soft:#6d6675;
+  --rose:#c7917e;--rose-deep:#b07a66;--rose-soft:#e0b4a4;
+  --line:#e3d4c6;--wa:#25d366;--wa-deep:#0f8f43;
+  --shadow:0 24px 60px -30px rgba(31,27,44,.18);
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Jost",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.05;letter-spacing:-.005em}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(100% - 2.2rem,720px);margin-inline:auto}
+
+.eyebrow{display:inline-flex;align-items:center;gap:.7rem;font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;color:var(--rose);font-weight:500}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--rose)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;padding:.95rem 1.6rem;border-radius:2px;border:1px solid var(--ink);cursor:pointer;transition:transform .2s,background .2s,color .2s;background:transparent;color:var(--ink);text-align:center}
+.btn:hover{transform:translateY(-2px)}
+.btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.btn-rose{background:var(--rose);border-color:var(--rose);color:#fff}
+.btn-rose:hover{background:var(--rose-deep);border-color:var(--rose-deep)}
+.btn-wa{background:var(--wa);border-color:var(--wa-deep);color:#06351c;font-weight:600}
+.btn-wa:hover{background:var(--wa-deep);color:#fff}
+.btn-outline{border-color:var(--ink);color:var(--ink)}
+.btn-outline:hover{background:var(--ink);color:#fff}
+.btn-block{width:100%}
+
+.topbar{background:color-mix(in srgb,var(--cream) 92%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding:.85rem 0;gap:1rem;width:min(100% - 2.2rem,1180px)}
+.brand{font-family:var(--serif);font-size:1.45rem;line-height:1;letter-spacing:-.01em}
+.brand b{font-weight:500;color:var(--ink)}
+.brand i{font-style:italic;color:var(--rose);font-weight:500}
+.back{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);border-bottom:1px solid transparent;padding-bottom:2px}
+.back:hover{border-color:var(--rose)}
+
+main{flex:1;padding:clamp(2rem,5vw,4rem) 0}
+.intro{text-align:center;margin-bottom:2rem}
+.intro h1{font-size:clamp(2.2rem,5vw,3.4rem);margin-top:1rem;font-weight:500}
+.intro h1 em{font-style:italic;color:var(--rose);font-weight:500}
+.intro p{color:var(--ink-2);margin-top:.8rem;max-width:48ch;margin-inline:auto}
+
+.service-tag{display:none;margin:1.2rem auto 0;padding:.55rem 1.1rem;border:1px solid var(--rose-soft);border-radius:999px;background:#fff;font-size:.82rem;color:var(--ink-2);width:fit-content}
+.service-tag b{color:var(--rose);font-weight:500}
+
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:clamp(1.5rem,3vw,2.2rem);box-shadow:var(--shadow)}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.f{display:flex;flex-direction:column;gap:.35rem}
+.f.full{grid-column:1/-1}
+.f label{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);font-weight:500}
+.f label span{color:var(--rose);font-weight:600}
+.f input,.f textarea{font-family:var(--sans);font-size:1rem;font-weight:400;padding:.85rem .9rem;border:1px solid var(--line);border-radius:4px;background:var(--cream);color:var(--ink);transition:border-color .15s}
+.f input:focus,.f textarea:focus{outline:2px solid var(--rose-soft);outline-offset:1px;border-color:var(--rose)}
+.checks{display:flex;flex-wrap:wrap;gap:.5rem}
+.checks label{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;border:1px solid var(--line);border-radius:999px;padding:.5rem .95rem;cursor:pointer;background:var(--cream);transition:background .15s,border-color .15s}
+.checks input{accent-color:var(--rose)}
+.checks label:has(input:checked){background:var(--peach);border-color:var(--rose)}
+
+.error{display:none;background:#fdecea;color:#a3261a;border:1px solid #f3c1bb;border-radius:4px;padding:.7rem .9rem;font-size:.88rem;margin-top:1rem}
+.error.show{display:block}
+
+.honeypot{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none}
+
+.alt{margin-top:1.8rem;text-align:center;padding-top:1.6rem;border-top:1px solid var(--line)}
+.alt p{font-size:.84rem;color:var(--ink-soft);margin-bottom:.8rem;letter-spacing:.04em}
+.alt-btns{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center}
+.alt-btns .btn{padding:.7rem 1.2rem;font-size:.72rem}
+
+.trust-row{margin-top:2rem;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;color:var(--ink-2);font-size:.8rem}
+.trust-row .stars{color:var(--rose);letter-spacing:.06em}
+.trust-row b{font-family:var(--serif);color:var(--ink);font-weight:600}
+
+.foot{background:var(--ink);color:#fff;padding:1.6rem 0;text-align:center;margin-top:auto}
+.foot p{font-size:.76rem;opacity:.7}
+.foot a{color:var(--rose-soft)}
+
+@media(max-width:560px){
+  .fg{grid-template-columns:1fr}
+  .intro h1{font-size:2rem}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+
+<header class="topbar"><div class="wrap">
+  <a class="brand" href="index.html"><b>Makeup Stories</b> <i>By Riya</i></a>
+  <a class="back" href="index.html">← Back</a>
+</div></header>
+
+<main>
+  <div class="wrap">
+    <div class="intro">
+      <span class="eyebrow">Reserve your date</span>
+      <h1>Tell me about your <em>day</em></h1>
+      <p>Share your dates and the look you're dreaming of — Riya will reply personally on WhatsApp with availability and a package made for you.</p>
+      <div class="service-tag" id="serviceTag"></div>
+    </div>
+
+    <div class="card">
+      <form id="enquiryForm" onsubmit="submitEnquiry(event)" novalidate>
+
+        <!-- Honeypot: hidden from real users, bots fill it and get rejected -->
+        <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div class="fg">
+          <div class="f full"><label>Your name <span>*</span></label><input name="name" id="bName" placeholder="Bride / family name" required></div>
+          <div class="f"><label>Phone (WhatsApp) <span>*</span></label><input name="phone" id="bPhone" inputmode="tel" placeholder="Your number" required></div>
+          <div class="f"><label>Wedding / function date</label><input name="date" id="bDate" type="date"></div>
+          <div class="f full"><label>Venue or city</label><input name="city" id="bCity" placeholder="e.g. Bhilai, Raipur, Pune, Hyderabad — or anywhere in India"></div>
+          <div class="f full">
+            <label>Which functions? (tap all that apply)</label>
+            <div class="checks" id="funcs">
+              <label><input type="checkbox" value="Haldi"> Haldi</label>
+              <label><input type="checkbox" value="Mehendi"> Mehendi</label>
+              <label><input type="checkbox" value="Engagement"> Engagement</label>
+              <label><input type="checkbox" value="Wedding" checked> Wedding</label>
+              <label><input type="checkbox" value="Reception"> Reception</label>
+              <label><input type="checkbox" value="Party"> Party</label>
+              <label><input type="checkbox" value="Pre-wedding shoot"> Pre-wedding shoot</label>
+            </div>
+          </div>
+          <div class="f full"><label>The look you're dreaming of</label><textarea name="look" id="bLook" rows="4" placeholder="Soft &amp; glowy, bold &amp; regal, dewy natural… outfit colours, inspo, skin concerns. The more you share, the better the package Riya can craft."></textarea></div>
+        </div>
+
+        <div class="error" id="formError"></div>
+
+        <button class="btn btn-rose btn-block" id="submitBtn" type="submit" style="margin-top:1.4rem;padding:1.1rem">
+          Send my enquiry →
+        </button>
+
+        <p style="font-size:.78rem;color:var(--ink-soft);margin-top:.8rem;text-align:center">
+          Riya replies personally within 24 hours. Your info stays private.
+        </p>
+      </form>
+
+      <div class="alt">
+        <p>Prefer to chat right now?</p>
+        <div class="alt-btns">
+          <a class="btn btn-wa" id="waNow" href="#">💬 WhatsApp Riya</a>
+          <a class="btn btn-outline" id="callNow" href="#">📞 Call Riya</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="trust-row">
+      <span><span class="stars">★★★★★</span> <b>4.8</b> · 29 Google reviews</span>
+      <span><b>200+</b> brides since 2019</span>
+      <span><b>Trial</b> available before the day</span>
+    </div>
+  </div>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <p>© <span id="yr"></span> Makeup Stories by Riya · Bhilai · <a href="index.html">Home</a></p>
+</div></footer>
+
+<script>
+/* =====================================================================
+   EDIT THESE THREE LINES — your real contact + Google Script URL
+   ===================================================================== */
+var WHATSAPP      = "917222911995";                            /* WhatsApp: country code + number, no + or spaces */
+var PHONE_DISPLAY = "+91 72229 11995";                         /* shown phone format */
+var SCRIPT_URL    = "https://script.google.com/macros/s/AKfycbxOaUf7329MZpEhw6OfRx1rnvrzcbu55q1e2f9TCXLE2nMcC8knC3YmJxZIDXIfNyGg_w/exec";       /* the Web App URL from Apps Script — see apps-script.js for setup */
+/* ===================================================================== */
+
+document.getElementById("yr").textContent = new Date().getFullYear();
+
+function waLink(msg){ return "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg); }
+
+function trackLead(){
+  try{ if(window.fbq) fbq('track','Lead'); }catch(e){}
+  try{ if(window.gtag) gtag('event','conversion',{'send_to':'AW-XXXXXXXXXX'}); }catch(e){}
+}
+
+// On page load: wire phone & WhatsApp buttons, show selected service if any
+(function init(){
+  var tel = "tel:" + PHONE_DISPLAY.replace(/[^\d+]/g,"");
+  var callBtn = document.getElementById("callNow"); if(callBtn) callBtn.href = tel;
+
+  var waBase = waLink("Hi Riya! I'd like to check your availability for my wedding.");
+  var waBtn = document.getElementById("waNow");
+  if(waBtn){ waBtn.href = waBase; waBtn.addEventListener("click", trackLead); }
+
+  var dt = document.getElementById("bDate"); if(dt) dt.min = new Date().toISOString().slice(0,10);
+
+  // Pre-fill from URL params: ?service=Bridal+Makeup&utm_source=meta etc.
+  var params = new URLSearchParams(window.location.search);
+  var service = params.get("service");
+  if(service){
+    var tag = document.getElementById("serviceTag");
+    tag.innerHTML = "Enquiring for: <b>" + escapeHtml(service) + "</b>";
+    tag.style.display = "block";
+  }
+})();
+
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+
+function showError(msg){
+  var el = document.getElementById("formError");
+  el.textContent = msg;
+  el.classList.add("show");
+  el.scrollIntoView({behavior:"smooth", block:"center"});
+}
+
+async function submitEnquiry(e){
+  e.preventDefault();
+  var form = document.getElementById("enquiryForm");
+  var errBox = document.getElementById("formError");
+  errBox.classList.remove("show");
+
+  // Honeypot — bots fill this hidden field. Silently exit if it's filled.
+  if(form.elements.website && form.elements.website.value) return;
+
+  // Validation
+  var name = form.elements.name.value.trim();
+  var phone = form.elements.phone.value.trim();
+  if(!name){ showError("Please add your name so we knows who she's speaking to."); return; }
+  if(!phone){ showError("Please add your WhatsApp number so that can reach you."); return; }
+
+  // Build the data
+  var formData = new FormData(form);
+  var funcs = Array.from(document.querySelectorAll("#funcs input:checked"))
+                   .map(function(c){return c.value;}).join(", ");
+  formData.set("functions", funcs);
+
+  // Add URL params (service, ad source, campaign) so they show in the sheet
+  var params = new URLSearchParams(window.location.search);
+  formData.append("service",  params.get("service")  || "");
+  formData.append("source",   params.get("utm_source") || params.get("source") || "Direct");
+  formData.append("campaign", params.get("utm_campaign") || "");
+
+  // Loading state
+  var btn = document.getElementById("submitBtn");
+  btn.disabled = true;
+  btn.textContent = "Sending...";
+
+  trackLead();
+
+  // POST to Google Apps Script (no-cors: we can't read the response, but data does go through)
+  try{
+    if(SCRIPT_URL && SCRIPT_URL.indexOf("https://script.google.com/macros/s/AKfycbxOaUf7329MZpEhw6OfRx1rnvrzcbu55q1e2f9TCXLE2nMcC8knC3YmJxZIDXIfNyGg_w/exec") === -1){
+      await fetch(SCRIPT_URL, {
+        method: "POST",
+        mode: "no-cors",
+        body: formData
+      });
+    } else {
+      // Script URL not configured yet — log a warning but still complete the flow
+      console.warn("SCRIPT_URL not configured. Form data is not being saved to a sheet. See apps-script.js for setup.");
+    }
+  }catch(err){
+    // Network error — still proceed to thanks page; user shouldn't feel they failed
+    console.error("Submission error:", err);
+  }
+
+  // Redirect to thanks page (with name so we can greet them by name)
+  window.location.href = "thanks.html?name=" + encodeURIComponent(name);
+}
+</script>
+</body>
+</html>
