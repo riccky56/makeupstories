@@ -60,7 +60,7 @@
 // ============================================================
 //  EDIT THIS LINE  ←  (or leave blank to skip email alerts)
 // ============================================================
-var NOTIFY_EMAIL = '';   // e.g. 'riya@example.com'
+var NOTIFY_EMAIL = 'riyatiwari73111@gmail.com';   // e.g. 'riya@example.com'
 // ============================================================
 
 

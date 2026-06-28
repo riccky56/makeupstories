@@ -198,7 +198,7 @@ main{flex:1;padding:clamp(2rem,5vw,4rem) 0}
    ===================================================================== */
 var WHATSAPP      = "917222911995";                            /* WhatsApp: country code + number, no + or spaces */
 var PHONE_DISPLAY = "+91 72229 11995";                         /* shown phone format */
-var SCRIPT_URL    = "https://script.google.com/macros/s/AKfycbxOaUf7329MZpEhw6OfRx1rnvrzcbu55q1e2f9TCXLE2nMcC8knC3YmJxZIDXIfNyGg_w/exec";       /* the Web App URL from Apps Script — see apps-script.js for setup */
+var SCRIPT_URL    = "https://script.google.com/macros/s/AKfycbwZGAFZQzLqgomhbJRMT2L2FNXO1MdYgQ_lwYak9sS6kCpAlD9BPLQEU07PAv5luSHWMw/exec";       /* the Web App URL from Apps Script — see apps-script.js for setup */
 /* ===================================================================== */
 
 document.getElementById("yr").textContent = new Date().getFullYear();
@@ -280,7 +280,7 @@ async function submitEnquiry(e){
 
   // POST to Google Apps Script (no-cors: we can't read the response, but data does go through)
   try{
-    if(SCRIPT_URL && SCRIPT_URL.indexOf("https://script.google.com/macros/s/AKfycbxOaUf7329MZpEhw6OfRx1rnvrzcbu55q1e2f9TCXLE2nMcC8knC3YmJxZIDXIfNyGg_w/exec") === -1){
+    if(SCRIPT_URL && SCRIPT_URL.indexOf("https://script.google.com/macros/s/AKfycbwZGAFZQzLqgomhbJRMT2L2FNXO1MdYgQ_lwYak9sS6kCpAlD9BPLQEU07PAv5luSHWMw/exec") === -1){
       await fetch(SCRIPT_URL, {
         method: "POST",
         mode: "no-cors",
